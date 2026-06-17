@@ -15,7 +15,7 @@ jobs:
       pull-requests: write  # for actions/first-interaction to comment on first PR
     runs-on: cx-public-ubuntu-x64
     steps:
-      - uses: actions/first-interaction@bd33205aa5c96838e10fd65df0d01efd613677c1 # v1.1.0
+      - uses: actions/first-interaction@1c4688942c71f71d4f5502a26ea67c331730fa4d # v3.1.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: 'Thanks for submitting your first issue, we will have a look as quickly as possible.'
