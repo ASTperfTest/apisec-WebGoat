@@ -10,7 +10,7 @@ jobs:
     environment:
       name: release
     steps:
-      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: "Get tag name"
         id: tag
@@ -109,7 +109,7 @@ jobs:
     environment:
       name: release
     steps:
-      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           ref: develop
           token: ${{ secrets.WEBGOAT_DEPLOYER_TOKEN }}
